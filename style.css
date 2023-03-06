@@ -1,0 +1,428 @@
+body > *{
+    color: rgb(2, 0, 0);
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+}
+body{
+    background-color: rgb(243, 242, 242);
+}
+/*header*/
+header h1{
+    color: rgb(60, 60, 227);
+    font-size: 25px;
+    margin: 0px 10px 9px 8px;
+}
+header {
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    font-size: 25px;
+    margin: 10px;
+    border-bottom: black;
+    position: relative;
+    width: 100px;
+}
+
+header .container .topnav{
+    height: 3px;
+    border-bottom: black;
+    display: flex;
+}
+.container{
+    background-color: rgb(202, 213, 223);
+    
+}
+body .container .topnav {
+    background-color: white;
+    display: flex;
+}
+.topnav input[type=text] {
+    padding: 3px;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 500px;
+    display: flex;
+}
+.topnav i {
+    font-size: 20px;
+    display: flex;
+}
+ 
+.topnav .searchbox {
+    justify-content: center;
+    margin-left: 0%;
+    width: 600px;
+    height: 20px;
+    background-color: rgb(231, 237, 235);
+    border-radius: 30px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 10px;
+  }
+
+.box {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: gray;
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    text-align: center;
+}
+.box1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: gray;
+    display: flex;
+    margin-left: 1%;
+    align-items: center;
+    text-align: center;
+}
+.user {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: gray;
+    display: flex;
+    margin-left: 1%;
+    align-items: center;
+}
+
+/*sidebR*/
+
+.sidebar {
+    height: 80vh;
+    width: 30%;
+    margin:10px;
+    flex-grow: 2;
+    font-size: 20px;
+    background-color: rgb(254, 255, 255);
+    padding: 10px;
+
+}
+.sidebar .s1{
+    margin: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar .s1 .icon {
+    display: flex;
+}
+.sidebar .s1 p {
+    margin-top: 5px;
+}
+.sidebar .s1 .pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.sidebar .s2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar .s2 .watch {
+    width: 40px;
+    height: 30px;
+}
+
+.sidebar .s2 .icon {
+    display: flex;
+}
+.sidebar .s2 .mp {
+    width: 40px;
+    height: 30px
+}
+.sidebar .s2 .grid {
+    width: 15px;
+    height: 15px;
+    margin: 8px 1px 1px 8px;
+}
+.sidebar .s2 .grids {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(170, 181, 181);
+    margin-left: 5px;
+}
+.sidebar .s3 .icon {
+    display: flex;
+    font-size: 30px;
+}
+.sidebar .s3 .icon p {
+    font-size: 15px;
+}
+.sidebar .s3 .g1 {
+    width: 40px;
+    height: 30px;
+    border-radius: 10%;
+}
+.sidebar .s3 .g2 {
+    width: 40px;
+    height: 30px;
+    border-radius: 10%;
+}
+.sidebar .s3 .grid i {
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 15px 9px;
+
+}
+.sidebar .s3 .grids {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(170, 181, 181);
+    margin-left: 5px;
+    
+    
+}
+p {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.s2 p{
+    display: flex;
+}
+.sidebar .s2 .icon i {
+    font-size: 25px;
+    color: rgb(25, 75, 177);
+    margin-left: 5px;
+}
+.sidebar .s1 .fa-solid.fa-house{
+   color: rgb(55, 55, 213);
+   font-size: 25px;
+}
+.container main {
+    height: 90vh;
+    display: flex;
+}
+.container main .sidebar {
+    flex-grow: 1;
+}
+.container main .sidebar .content {
+    display: flex;
+    display: inline-block;
+}
+/*main*/
+.container main .content {
+    width: 100%;
+    height: 90%;
+    flex-direction: row;
+    text-align: center;
+
+    margin: 10px;
+}
+main .content .stories{
+    height: 30%;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+/*myday*/
+main .content .stories .myday{
+    height: 100%;
+    width: 150px;
+    margin: 10px;
+    width: 15%;
+    border-radius: 20px;
+    background-color: rgb(151, 180, 170);
+    text-align: center;
+}
+.stories .myday .pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.stories .myday {
+}
+
+/*post*/
+main .content .posts{
+    height: 70%;
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+}
+main .content .posts .searchbox{
+    margin: 10px;
+    margin-top: 0px;
+}
+.upload input[type=text] {
+    padding: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 0px;
+    width: 500px;
+    display: flex;
+}
+.posts .p1 .upload {
+    display: flex;
+}
+.pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.posts .p1 .uicons {
+    display: flex;
+    align-items: center;
+}
+.posts .p1 .uicons p {
+    display: flex;
+    margin-top: 0px;
+}
+.posts .p1 .uicons .icon1{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+
+.posts .p1 {
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.posts .p2 {
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+    margin-top: 10px;
+}
+.posts .p2 .room{
+    border: 1px solid rgb(101, 141, 216);
+    border-radius: 25%;
+    align-items: center;
+    width: 130px;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+}
+.p2 .room p{
+    font-size: 15px;
+}
+.posts .p3 {
+    background-color: white;
+    border-radius: 10px;
+    height: 90%;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+/*sidebar2*/
+.container main .sidebar2 {
+    flex-grow: 3;
+    width: 30%;
+    height: 90vh;
+    flex-direction: row;
+    margin: 10px;
+}
+/*ads*/
+.contentainer main .sidebar2 .ads {
+    height: 30%;
+    background-color: white;
+    padding: 20px;
+}
+.ads .bd {
+    margin: 10px;
+    font-size: 29px;
+    color:rgb(213, 65, 20);
+    display:flex;
+}
+.ads .bd p{
+    font-size: 15px;
+    color: black;
+}
+.ads .spon {
+    display: flex;
+}
+.ads .spon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+/*messages*/
+.messages .contacts {
+    display: flex;
+    margin: 10px;
+    
+}
+.messages .contacts p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.container main .sidebar2 .messages {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sidebar p {
+        display: none;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .sidebar p {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header .container .topnav{
+        height: 3px;
+        border-bottom: black;
+        display: flex;
+    }
+    .container{
+        background-color: rgb(202, 213, 223);
+        
+    }
+    body .container .topnav {
+        background-color: white;
+        display: flex;
+    }
+}
+
