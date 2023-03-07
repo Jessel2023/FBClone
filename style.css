@@ -226,17 +226,13 @@ nav {
     font-size: 20px;
 
 }
-nav .fa-solid.fa-house{
-    margin-left: 0px;
-}
+
 nav img, i {
     margin-left: 10%;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
-nav img {
-    width: 30px;
-    width: 30px;
-}
+
 /*main*/
 .container main .content {
     width: 100%;
@@ -514,8 +510,9 @@ main .content .posts .searchbox{
     .container .main{
         margin: 0px;
     }
-    .container{
+    body .container{
         background-color: rgb(0, 0, 0);
+        height: 100%;
     }
     .posts .p1 .uicons {
         display: none;
@@ -528,6 +525,9 @@ main .content .posts .searchbox{
         margin-left: 10px;
         width: 0px;
         display: flex;
+    }
+    .container {
+        width: 100vh;
     }
     header h1{
         color: white;
@@ -577,7 +577,7 @@ main .content .posts .searchbox{
     .stories .myday .pic{
         border-radius: 20px;
     }
-    main .content .stories .myday{
+    .container main .content .stories .myday{
         height: 100%;
         width: 150px;
         margin: 10px;
