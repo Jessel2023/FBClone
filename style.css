@@ -526,8 +526,8 @@ main .content .posts .searchbox{
         width: 0px;
         display: flex;
     }
-    .container {
-        width: 100vh;
+    body .container {
+        width: 100;
     }
     header h1{
         color: white;
