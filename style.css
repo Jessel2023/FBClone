@@ -512,7 +512,6 @@ main .content .posts .searchbox{
     }
     body .container{
         background-color: rgb(0, 0, 0);
-        height: 100%;
     }
     .posts .p1 .uicons {
         display: none;
@@ -527,8 +526,8 @@ main .content .posts .searchbox{
         display: flex;
     }
     body .container {
-        width: 100vh;
-        height: 100;
+        width: 80vh;
+        height: 150vh;
     }
     header h1{
         color: white;
