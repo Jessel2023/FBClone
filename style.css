@@ -218,10 +218,9 @@ p {
     height: 90%;
     flex-direction: row;
     text-align: center;
-
     margin: 10px;
 }
-main .content .stories{
+.container main .content .stories{
     height: 30%;
     width: 100%;
     flex-direction: row;
@@ -242,9 +241,8 @@ main .content .stories .myday{
     text-align: center;
 }
 .stories .myday .pic{
-    width: 100%;
-    height: 100%;
     border-radius: 20px;
+
 }
 .stories .myday {
 }
@@ -314,7 +312,7 @@ main .content .posts .searchbox{
     margin: 20px;
     margin-top: 10px;
 }
-.posts .p2 .room{
+.container main .posts .p2 .room{
     border: 1px solid rgb(101, 141, 216);
     border-radius: 25%;
     align-items: center;
@@ -346,7 +344,7 @@ main .content .posts .searchbox{
     margin: 10px;
 }
 /*ads*/
-.contentainer main .sidebar2 .ads {
+.container main .sidebar2 .ads {
     height: 30%;
     background-color: white;
     padding: 20px;
@@ -392,7 +390,173 @@ main .content .posts .searchbox{
     .sidebar p {
         display: none;
     }
+    .container .sidebar:nth-child(1){
+        display: none;
+    }
+    .container .sidebar2:nth-child(3){
+        display: none;
+    }
+    .container main .content {
+        flex-direction: row-reverse , 2;
+    }
+    .container .main{
+        margin: 0px;
+    }
+    .topnav input[type=text] {
+        padding: 3px;
+        border: none;
+        font-size: 15px;
+        background-color: transparent;
+        margin-left: 10px;
+        width: 0px;
+        display: flex;
+    }
+  
+    .box {
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        background-color: gray;
+        display: flex;
+        margin-left: 10%;
+        align-items: center;
+        text-align: center;
+    }
+    .topnav .searchbox {
+        justify-content: center;
+        margin-left: 70%;
+        width: 40px;
+        height: 20px;
+        background-color: rgb(231, 237, 235);
+        border-radius: 40px;
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        padding: 10px;
+      }
+      .container main .content .stories .myday{
+        height: 90%;
+        width: 150px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: rgb(151, 180, 170);
+        text-align: center;
+    }
+    .stories .myday .pic{
+        border-radius: 20px;
+    }
+    main .content .stories .myday{
+        height: 100%;
+        width: 150px;
+        margin: 10px;
+        border-radius: 20px;
+        background-color: rgb(151, 180, 170);
+        text-align: center;
+    }
+    /*main*/
+    .container main .content {
+        width: 90%;
+        height: 90%;
+        flex-direction:flex;
+        text-align: center;
+        margin: -20px;
+    }
+    .container main .content .stories{
+        height: 30%;
+        width: 100%;
+        flex-direction: row;
+        margin: 10px;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*post*/
+    main .content .posts{
+        height: 70%;
+        width: 100%;
+        display: flex;
+    }
+    main .content .posts .searchbox{
+        margin: 10px;
+        margin-top: 0px;
+    }
+    .upload input[type=text] {
+        padding: 0px;
+        border: none;
+        font-size: 15px;
+        background-color: transparent;
+        margin-left: 0px;
+        width: 500px;
+        display: flex;
+    }
+    .posts .p1 .upload {
+        display: flex;
+    }
+    .pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .posts .p1 .uicons {
+        display: flex;
+        align-items: center;
+    }
+    .posts .p1 .uicons p {
+        display: flex;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .posts .p1 .uicons .icon1{
+        display: flex;
+        text-align: center;
+        margin: 10px;
+    }
     
+    .posts .p1 {
+        background-color: white;
+        border-radius: 10px;
+        height: 100px;
+        width: 90%;
+    }
+    .container .main .posts{
+        margin-left: 0px;
+    }
+    .posts {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .posts .p2 {
+        background-color: white;
+        border-radius: 10px;
+        height: 40px;
+        width: 90%;
+        margin: 20px;
+        margin-top: 10px;
+    }
+    .container main .posts .p2 .room{
+        border: 1px solid rgb(101, 141, 216);
+        border-radius: 25%;
+        align-items: center;
+        width: 130px;
+        height: 20px;
+        border-radius: 30px;
+        display: flex;
+    }
+    .p2 .room p{
+        font-size: 15px;
+    }
+    .posts .p3 {
+        background-color: white;
+        border-radius: 10px;
+        height: 90%;
+        padding: 10px;
+        width: 90%;
+        margin: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
