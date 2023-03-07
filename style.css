@@ -5,6 +5,9 @@ body > *{
     font-size: 18px;
     justify-content: center;
 }
+p {
+    font-size: 100px;
+}
 body{
     background-color: rgb(243, 242, 242);
 }
@@ -69,14 +72,15 @@ body .container .topnav {
     text-align: center;
     height: 30px;
     width: 30px;
+    margin: 10px;
     border-radius: 100%;
     background-color: gray;
     display: flex;
-    margin-left: 200%;
+    margin-left: 2000%;
     align-items: center;
-    text-align: center;
 }
 .box1 {
+    margin: 10px;
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -89,6 +93,7 @@ body .container .topnav {
 .user {
     height: 30px;
     width: 30px;
+    margin: 10px;
     border-radius: 100%;
     background-color: gray;
     display: flex;
@@ -289,10 +294,34 @@ main .content .stories .myday .storyupload .story_tag{
     font-weight: bold;
     font-size: 14px;
 }
-.stories .myday .pic{
+main .content .stories .myday .day {
+    height: 100%;
+    width: 100%;
     border-radius: 20px;
-
+    background-color: rgb(151, 180, 170);
+    text-align: center;
+    overflow: hidden;
 }
+main .content .stories .myday .day img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+main .content .stories .myday .day .story_profile{
+    position: relative;
+    bottom: 240px;
+    margin-left: 10px;   
+}
+main .content .stories .myday .day .story_profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: -30px;
+    border: 4px solid rgb(24, 24, 216);
+}
+
 main .content .stories {
     width: 100%;
     height: 260px;
@@ -407,6 +436,9 @@ main .content .posts .searchbox{
     margin-top: 10px;
     text-align: center;
 }
+.posts .p3 p {
+    font-size: 100px;
+}
 /*sidebar2*/
 .container main .sidebar2 {
     flex-grow: 3;
@@ -414,6 +446,9 @@ main .content .posts .searchbox{
     height: 90vh;
     flex-direction: row;
     margin: 10px;
+}
+.sidebar2 p {
+    font-size: 50px;
 }
 /*ads*/
 .container main .sidebar2 .ads {
@@ -424,12 +459,15 @@ main .content .posts .searchbox{
 .ads .bd {
     margin-top: 10px;
     margin-left: 0px;
-    font-size: 50px;
+    font-size: 70px;
     color:rgb(213, 65, 20);
     display:flex;
 }
+.ads .bd i{
+    margin-left: 0px;
+}
 .ads .bd p{
-    font-size: 40px;
+    font-size: 50px;
     color: black;
 }
 .ads .spon {
@@ -447,13 +485,13 @@ main .content .posts .searchbox{
     
 }
 .messages .contacts p {
-    font-size: 15px;
+    font-size: 50px;
     font-weight: 100;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .container main .sidebar2 .messages {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 900px;
     background-color: white;
     margin-top: 20px;
     padding: 0px;
@@ -495,7 +533,10 @@ main .content .posts .searchbox{
         color: white;
     }
     body .container .topnav{
-        background-color: rgb(24, 24, 24);
+        background-color: rgb(41, 40, 40);
+    }
+    nav {
+        background-color: rgb(41, 40, 40);
     }
     .topnav .box1, .user {
         display: none;
@@ -503,8 +544,8 @@ main .content .posts .searchbox{
   
     .box {
         text-align: center;
-        height: 50px;
-        width: 150px;
+        height: 40px;
+        width: 40px;
         margin-left: 10px;
         border-radius: 100%;
         background-color: gray;
@@ -513,7 +554,7 @@ main .content .posts .searchbox{
     }
     .topnav .searchbox {
         justify-content: center;
-        margin-left: 99%;
+        margin-left: 150px;
         width: 40px;
         height: 20px;
         background-color: rgb(231, 237, 235);
@@ -651,6 +692,9 @@ main .content .posts .searchbox{
     .p2 .room{
         color: white;
     }
+    .posts .p3 p {
+        font-size: 10px;
+    }
     .posts .p3 {
         background-color: rgb(24, 24, 24);
         border-radius: 10px;
@@ -660,7 +704,6 @@ main .content .posts .searchbox{
         margin: 20px;
         margin-top: 10px;
         text-align: center;
-        
     }
 }
 
