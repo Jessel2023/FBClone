@@ -107,7 +107,7 @@ body .container .topnav {
 
 .sidebar {
     height: 80vh;
-    width: 30%;
+    width: 40%;
     margin:10px;
     flex-grow: 2;
     font-size: 20px;
@@ -543,6 +543,7 @@ main .content .posts .searchbox{
     }
   
     .box {
+        display: none;
         text-align: center;
         height: 40px;
         width: 40px;
@@ -710,7 +711,7 @@ main .content .posts .searchbox{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .sidebar p {
-        display: none;
+       width: 1000px;
     }
     nav{
         display: none;
