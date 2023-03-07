@@ -527,7 +527,7 @@ main .content .posts .searchbox{
     }
     body .container {
         width: 80vh;
-        height: 250vh;
+        height: 250vh;     
     }
     header h1{
         color: white;
@@ -553,9 +553,10 @@ main .content .posts .searchbox{
         align-items: center;
         text-align: center;
     }
+    
     .topnav .searchbox {
         justify-content: center;
-        margin-left: 500%;
+        margin-left: 300px;
         width: 40px;
         height: 20px;
         background-color: rgb(231, 237, 235);
